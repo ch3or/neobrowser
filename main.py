@@ -70,10 +70,7 @@ class MainWindow(QMainWindow):
             self.browser.setUrl(QUrl(f"https://duckduckgo.com/?q={url}"))
 
     def update_url(self, q):
-        if q == "https://youtube.com.br":
-            self.search_box.setText("test")     
-        else:
-            self.search_box.setText(q.toString())
+        self.search_box.setText(q.toString())
 
 
 app = QApplication(sys.argv)
