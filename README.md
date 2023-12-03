@@ -11,6 +11,8 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the requirements.
 
 ```bash
+git clone https://github.com/ch3or/neobrowser.git
+
 cd neobrowser/
 
 pip install -r requirements.txt
